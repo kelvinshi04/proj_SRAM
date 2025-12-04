@@ -127,10 +127,9 @@ C {EE431_FINALPROJECT/proj_SRAM/precharge.sym} 220 -400 0 0 {name=x2}
 C {EE431_FINALPROJECT/proj_SRAM/SRAM_cell.sym} 140 -340 0 0 {name=x4}
 C {EE431_FINALPROJECT/proj_SRAM/write_driver.sym} 160 -200 0 0 {name=x1}
 C {gnd.sym} 705 -300 0 0 {name=l8 lab=GND}
-C {vsource.sym} 320 -180 0 1 {name=V6 value="PWL(0 0 70n 0 80n 1.8 120n 1.8 130n 0 )" savecurrent=false}
+C {vsource.sym} 320 -180 0 1 {name=V6 value="PWL(0 0 70n 0 80n 1.8 120n 1.8 130n 0 260n 0 270n 1.8 310n 1.8 320n 0 450n 0 460n 1.8 500n 1.8 510n 0)" savecurrent=false}
 C {gnd.sym} 320 -140 0 0 {name=l9 lab=GND}
 C {lab_pin.sym} 350 -210 3 0 {name=p6 sig_type=std_logic lab=SSA}
 C {lab_pin.sym} 400 -260 3 0 {name=p9 sig_type=std_logic lab=SBL}
 C {lab_pin.sym} 620 -260 3 0 {name=p10 sig_type=std_logic lab=SBL_n}
-C {EE431_FINALPROJECT/proj_SRAM/precharge.sym} -260 -720 0 0 {name=x3}
 C {EE431_FINALPROJECT/proj_SRAM/ISOsense_amp.sym} 520 -280 0 0 {name=x5}
