@@ -110,7 +110,7 @@ C {iopin.sym} 100 -300 0 0 {name=p1 lab=BL_n}
 C {iopin.sym} -100 -300 0 1 {name=p2 lab=BL}
 C {iopin.sym} 0 220 0 0 {name=p4 lab=GND}
 C {sky130_fd_pr/nfet_01v8.sym} 80 50 0 0 {name=M1
-W=1
+W=0.5
 L=0.25
 nf=1 
 mult=1
@@ -124,7 +124,7 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/nfet_01v8.sym} -80 50 0 1 {name=M2
-W=1
+W=0.5
 L=0.25
 nf=1 
 mult=1
@@ -138,7 +138,7 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/pfet_01v8.sym} 80 -80 0 0 {name=M3
-W=2
+W=1
 L=0.25
 nf=1
 mult=1
@@ -152,7 +152,7 @@ model=pfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/pfet_01v8.sym} -80 -80 0 1 {name=M4
-W=2
+W=1
 L=0.25
 nf=1
 mult=1
@@ -166,7 +166,7 @@ model=pfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/nfet_01v8.sym} 20 160 0 1 {name=M5
-W=2
+W=1
 L=0.25
 nf=1 
 mult=1
