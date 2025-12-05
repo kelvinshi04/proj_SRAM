@@ -138,7 +138,7 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/pfet_01v8.sym} 80 -80 0 0 {name=M3
-W=1
+W=2
 L=0.25
 nf=1
 mult=1
@@ -152,7 +152,7 @@ model=pfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/pfet_01v8.sym} -80 -80 0 1 {name=M4
-W=1
+W=2
 L=0.25
 nf=1
 mult=1
@@ -180,7 +180,7 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/pfet_01v8.sym} -80 -240 0 1 {name=M6
-W=1
+W=0.5
 L=0.25
 nf=1
 mult=1
@@ -194,7 +194,7 @@ model=pfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/pfet_01v8.sym} 80 -240 0 0 {name=M7
-W=1
+W=0.5
 L=0.25
 nf=1
 mult=1
